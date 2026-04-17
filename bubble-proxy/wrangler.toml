@@ -1,0 +1,15 @@
+# ================================================================
+#  Bubble Proxy — Wrangler config
+#  Docs: https://developers.cloudflare.com/workers/wrangler/
+# ================================================================
+
+name            = "bubble-proxy"
+main            = "worker.js"
+compatibility_date = "2024-09-23"
+
+# routes = [
+#   { pattern = "proxy.yourdomain.com/*", zone_name = "yourdomain.com" }
+# ]
+
+# [vars]
+# ALLOWED_ORIGINS = "https://yourdomain.com"
